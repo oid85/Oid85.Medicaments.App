@@ -3,7 +3,7 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
 import { useSelector } from 'react-redux'
 import 'react-tabs/style/react-tabs.css'
 import { Alert } from '../Alert/Alert'
-import { GlucoseScreen } from '../Screens/GlucoseScreen'
+import { MedicamentsScreen } from '../Screens/MedicamentsScreen'
 
 export const Workspace = () => {
     const alert = useSelector(state => state.app.alert)
@@ -13,10 +13,10 @@ export const Workspace = () => {
             {alert && <Alert text={alert} />}
             <Tabs>
                 <TabList>
-                    <Tab>Глюкоза</Tab>
+                    <Tab>Лекарства</Tab>
                 </TabList>  
                 <TabPanel>
-                    <GlucoseScreen />
+                    <MedicamentsScreen />
                 </TabPanel>                              
             </Tabs>
         </React.Fragment>
