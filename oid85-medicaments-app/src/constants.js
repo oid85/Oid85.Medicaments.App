@@ -1,0 +1,11 @@
+export const CONSTANTS = {
+    FINMARKET_API: 'http://26.147.25.39:7101',
+
+    COLOR_GREEN:       '#00CC66',
+    COLOR_YELLOW:      '#FFFF99',
+    COLOR_LIGHTSALMON: '#FFA07A',
+    COLOR_CORAL:       '#FF7F50',
+    COLOR_TOMATO:      '#FF6347',
+    COLOR_ORANGERED:   '#FF4500',
+    COLOR_WHITE:       '#FFFFFF'
+}
