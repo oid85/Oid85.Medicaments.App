@@ -17,56 +17,49 @@
     padding: 1px;
 }
 
-.glucose-list { 
+.medicament-list { 
     height: 850px;
     width: 1900px;            
     overflow-y: scroll;    
 }
 
-.glucose-calendar { 
-    height: 55px;
-    width: 50px;
+.medicament-list-item { 
+    height: 52px;
 }
 
-.glucose-empty-cell { 
-    width: 50px;    
+.medicament-list-item-name { 
+    font-size: 24px;
+    height: 50px;
+    width: 500px;  
 }
 
-.header-cell { 
-    width: 305px;
+.medicament-list-item-reserve { 
+    font-size: 24px; 
+    height: 50px;
+    width: 100px;
 }
 
-.glucose-container { 
-    width: 275px;
-}
-
-.glucose-container-value { 
-    font-size: 31px;
-    text-align: center;
-    height: 49px;    
-}
-
-/*Set modal*/
-.set-glucose-button {
+/*Add modal*/
+.add-medicament-button {
     height: 50px;
     width: 10px;
     margin: 1px;
     font-size: 10px;
 }
 
-.set-glucose-modal-save-button {
+.add-medicament-modal-save-button {
     width: 100px;
     margin: 5px;
     font-size: 10px;
 }
 
-.set-glucose-modal-cancel-button {
+.add-medicament-modal-cancel-button {
     width: 100px;
     margin: 5px;
     font-size: 10px;
 }
 
-.set-glucose-modal-input {
+.add-medicament-modal-input {
     margin: 5px;
     font-size: 10px;
 }

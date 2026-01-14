@@ -2,7 +2,7 @@ import React from 'react'
 import { useSelector } from 'react-redux'
 import 'react-tabs/style/react-tabs.css'
 import { Alert } from '../Alert/Alert'
-import { MedicamentsList } from '../Medicaments/MedicamentsList'
+import { MedicamentList } from '../Medicament/MedicamentList'
 import './styles.css'
 
 export const MedicamentsScreen = () => {
@@ -12,7 +12,7 @@ export const MedicamentsScreen = () => {
         <React.Fragment>            
             {alert && <Alert text={alert} />}
             <div>
-                <MedicamentsList />
+                <MedicamentList />
             </div>            
         </React.Fragment>
     )    

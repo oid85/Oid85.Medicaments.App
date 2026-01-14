@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux'
 import { appReducer } from './appReducer'
-import { glucoseReducer } from './glucoseReducer'
+import { medicamentReducer } from './medicamentReducer'
 
 export const rootReducer = combineReducers({
     app: appReducer,
-    glucose: glucoseReducer
+    medicament: medicamentReducer
 })

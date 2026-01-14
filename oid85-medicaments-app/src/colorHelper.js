@@ -1,9 +1,9 @@
 import { CONSTANTS } from "./constants"
 
-export const glucoseColor = (value) => {
-    if (value >= 3.3 && value < 6.0) { return CONSTANTS.COLOR_GREEN }
-    if (value >= 6.0 && value < 8.0) { return CONSTANTS.COLOR_YELLOW }
-    if (value >= 8.0) { return CONSTANTS.COLOR_LIGHTSALMON }
-    
+export const reserveColor = (value) => {
+    if (value <= 5) { return CONSTANTS.COLOR_TOMATO }
+    if (value <= 10) { return CONSTANTS.COLOR_LIGHTSALMON }
+    if (value <= 15) { return CONSTANTS.COLOR_YELLOW }
+
     return CONSTANTS.COLOR_GREEN
 }
