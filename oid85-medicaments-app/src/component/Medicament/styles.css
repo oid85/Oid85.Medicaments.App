@@ -30,36 +30,101 @@
 .medicament-list-item-name { 
     font-size: 24px;
     height: 50px;
-    width: 500px;  
+    width: 500px;
+    text-align: left;
 }
 
 .medicament-list-item-reserve { 
     font-size: 24px; 
     height: 50px;
-    width: 100px;
+    width: 250px;
+    text-align: center;
+}
+
+.medicament-list-item-dose { 
+    font-size: 24px; 
+    height: 50px;
+    width: 250px;
+    text-align: center;
 }
 
 /*Add modal*/
 .add-medicament-button {
     height: 50px;
-    width: 10px;
+    width: 150px;
     margin: 1px;
-    font-size: 10px;
+    font-size: 14px;
 }
 
 .add-medicament-modal-save-button {
     width: 100px;
     margin: 5px;
-    font-size: 10px;
+    font-size: 14px;
 }
 
 .add-medicament-modal-cancel-button {
     width: 100px;
     margin: 5px;
-    font-size: 10px;
+    font-size: 14px;
 }
 
 .add-medicament-modal-input {
     margin: 5px;
-    font-size: 10px;
+    font-size: 14px;
+}
+
+/*Create modal*/
+.create-medicament-list-item-button {
+    height: 50px;
+    width: 500px;
+    margin: 1px;
+    font-size: 14px;
+}
+
+.create-medicament-modal-save-button {
+    width: 100px;
+    margin: 5px;
+    font-size: 14px;
+}
+
+.create-medicament-modal-cancel-button {
+    width: 100px;
+    margin: 5px;
+    font-size: 14px;
+}
+
+.create-medicament-modal-input {
+    margin: 5px;
+    font-size: 14px;
+}
+
+/*Edit modal*/
+.edit-medicament-button {
+    height: 50px;
+    width: 150px;
+    margin: 1px;
+    font-size: 14px;
+}
+
+.edit-medicament-modal-save-button {
+    width: 100px;
+    margin: 5px;
+    font-size: 14px;
+}
+
+.edit-medicament-modal-delete-button {
+    width: 100px;
+    margin: 5px;
+    font-size: 14px;
+}
+
+.edit-medicament-modal-cancel-button {
+    width: 100px;
+    margin: 5px;
+    font-size: 14px;
+}
+
+.edit-medicament-modal-input {
+    margin: 5px;
+    font-size: 14px;
 }

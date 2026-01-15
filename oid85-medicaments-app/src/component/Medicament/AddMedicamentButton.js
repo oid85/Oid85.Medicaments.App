@@ -4,20 +4,19 @@ import {fetchCurrentMedicament, showAddMedicamentModal} from '../../redux/action
 import 'bootstrap/dist/css/bootstrap.css'
 import './styles.css'
 
-export const AddMedicamentButton = ({value}) => {
+export const AddMedicamentButton = ({medicament}) => {
     
     const dispatch = useDispatch()
-    const currentMedicament = useSelector(state => state.medicament.currentMedicament)
     
     return (
         <React.Fragment>
             <button 
-                className='btn btn-outline-link set-medicament-button'
+                className='btn btn-outline-primary add-medicament-button'
                 onClick={() => {
-                    dispatch(fetchCurrentMedicament({...currentMedicament, value: value}))
+                    dispatch(fetchCurrentMedicament({...medicament}))
                     dispatch(showAddMedicamentModal())
                 }                
-                }>+</button>
+                }>Пополнить</button>
         </React.Fragment>
     )
 }
