@@ -17,7 +17,7 @@ export const MedicamentList = () => {
 
     useEffect(() => {
         dispatch(sagaMedicamentList())
-    }, [])
+    }, [dispatch])
 
     return (
         <React.Fragment>

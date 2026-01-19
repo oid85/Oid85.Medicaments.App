@@ -1,5 +1,5 @@
 import React from 'react'
-import {useDispatch, useSelector} from 'react-redux'
+import {useDispatch} from 'react-redux'
 import {fetchCurrentMedicament, showEditMedicamentModal} from '../../redux/actions/medicamentActions'
 import 'bootstrap/dist/css/bootstrap.css'
 import './styles.css'
